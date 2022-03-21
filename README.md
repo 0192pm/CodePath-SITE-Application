@@ -43,9 +43,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/gif%201.gif?v=1647659836521)
-![](https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/gif%202.gif?v=1647659840255)
-![](https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/gif%203.gif?v=1647659846096)
+![](http://g.recordit.co/u8dDf41Uds.gif)
+![]()
 
 ## Reflection Questions
 
