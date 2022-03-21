@@ -1,0 +1,108 @@
+body {
+  font-family: 'Trispace', sans-serif;
+  margin: 2em;
+  background-color: #482980;
+  color: white;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 90px;
+}
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 60px;
+}
+p {
+  font-family: 'Trispace', cursive;
+  font-size: 25px;
+}
+
+button {
+  padding: 10px 14px;
+  font-family: 'Trispace', cursive;
+  font-size: 30px;
+  border-radius: 15px;
+  background: #FFF01F;
+  color: white;
+  border-color: white;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+  width: 500px;
+  right: 8000;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(20); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(20); }
+    100% { transform: translateY(-30px); }
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button1{
+  background: lightgreen;
+}
+#button1:active, #button1.lit{
+  background: green;
+  filter: blur(5px);
+}
+#button2 {
+  background: lightblue;
+}
+#button2:active, #button2.lit{
+  background: blue;
+  filter: blur(5px);
+}
+#button3 {
+  background: pink;
+  
+}
+#button3:active, #button3.lit{
+  background: red;
+  filter: blur(5px);
+}
+#button4 {
+  background: lightyellow;
+}
+#button4:active, #button4.lit{
+  background: yellow;
+  filter: blur(5px);
+}
+#button5 {
+  background: #FFD580;
+}
+#button5:active, #button5.lit{
+  background: orange;
+  filter: blur(5px);
+
+}
+#button6 {
+  background: #E6E6FA;
+}
+#button6:active, #button6.lit{
+  background: purple;
+  filter: blur(5px);
+
+}
+
+.hidden {
+  display: none;
+}
+
+.icon {
+  opacity: 0;
+}
+.icon:active {
+  opacity: 1.0;
+}

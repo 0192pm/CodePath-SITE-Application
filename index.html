@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Import fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Staatliches&family=Trispace&display=swap" rel="stylesheet">
+    
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title"><center><b>LIGHT AND SOUND MEMORY GAME</b></center></h1>
+        <center><img src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/Comp%202%20(0-00-00-00).png?v=1647576881700" class="vert-move" /></center>
+          </div>
+
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>WELCOME TO THE GAME!</h2>
+          <p>
+            In a series of 8 turns, a pattern of colored light with sound will be displayed.
+            Repeat the pattern by pressing the corresponding buttons.
+          </p>
+          <!-- ADD BUTTON HERE -->
+          <center><button id="startBtn" onclick="startGame()">
+            <b>START</b>
+          </button></center>
+          <center><button id="stopBtn" class="hidden" onclick="stopGame()">
+            <b>STOP</b>
+          </button></center>
+          <p>
+            
+          </p>
+          <div id="gameButtonArea">
+            <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img id = "comet" class ="icon" src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/comet.png?v=1647637615770" eight ="200" width="200" /></button>
+            <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img id = "constellation" class ="icon" src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/constellation.png?v=1647637621102" height ="200" width="200" /></button>
+            <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img id = "moon" class ="icon" src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/moon.png?v=1647637625005" height ="200" width="200" /></button>
+            <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img id = "sparkle" class ="icon" src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/sparkle.png?v=1647637629770" height ="200" width="200" /></button>
+            <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"><img id = "planet" class ="icon" src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/planet.png?v=1647637633474" height ="200" width="200" /></button>
+            <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"><img id = "star" class ="icon" src="https://cdn.glitch.global/90f3f33d-7522-4631-9d54-ee67ba9b1c03/star.png?v=1647637636948" height ="200" width="200" /></button>
+          </div>
+        </div>
+      </div>
+    </div> 
