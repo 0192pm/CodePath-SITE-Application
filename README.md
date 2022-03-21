@@ -44,7 +44,10 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](http://g.recordit.co/u8dDf41Uds.gif)
-![]()
+![](http://g.recordit.co/A9fAaXHwKv.gif)
+![](http://g.recordit.co/rcz6bDrETJ.gif)
+
+* NOTE: Sound of the buttons and round of applause cannot be heard from the gif. Also, when the same button is pressed twice, sometimes it is not captured by RecordIt in the Gif.
 
 ## Reflection Questions
 
