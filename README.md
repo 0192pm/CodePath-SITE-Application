@@ -4,7 +4,7 @@
 
 Submitted by: Keisha Maru Benauro
 
-Time spent: **#** hours spent in total
+Time spent: **30** hours spent in total
 
 Link to project: [https://satisfying-grandiose-agreement.glitch.me](https://satisfying-grandiose-agreement.glitch.me/)
 
