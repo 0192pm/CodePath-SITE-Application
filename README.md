@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 - [x] Add moving alien icon
 - [x] Blur game buttons when clicked
 - [x] Alert with a count of total mistakes made
-- [x] A round of appalause is played after winning the game
+- [x] A round of applause is played after winning the game
 - [x] An alert saying to refresh page after winning the game
 
 ## Video Walkthrough (GIF)
