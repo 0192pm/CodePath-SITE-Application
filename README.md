@@ -96,7 +96,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    
    For those who are up for the challenge, I would include the option to increase the game intensity by having each of the colored buttons randomly change positions in each turn. For example, the green button (1st position) would be in the 3rd position (pink button) while the yellow button (4th position) would be in the 5th position (orange button). In the second turn, the green button is in the 2nd position, and so forth with the rest of the colored buttons following a similar pattern.
    
-   Instead of the alert in the **_loseGame()_** and **_winGame()_** functions, I would replace them with the words "GAME OVER" and "YOU WON", respectively, and gradually increase its font size across the webpage.
+   Instead of the alert in the **_loseGame()_** and **_winGame()_** functions, I would replace them with the words "GAME OVER" and "YOU WON", respectively, and gradually increase its font size as it is displayed across the webpage.
 
 ## Interview Recording URL Link
 
