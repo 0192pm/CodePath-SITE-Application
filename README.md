@@ -70,7 +70,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
     As someone who is most comfortable with Python, I had difficulties creating a random sequence using JavaScript syntax. Luckily, I found resources listed above to help me create an array that generated a list of 8 random numbers from 1-6, which corresponded to each button. I repeatedly played the game and tested out different button combinations each time (ex. purposely making a mistake every other turn). It was a bit tedious at first but was eventually worth the time when I found several errors. 
 
-    In addition to the required and optional steps, I wanted to create an outer space theme because I thought it matched the lights and alien-like sounds produced by the buttons. Despite it being my first time using CSS I was determined to execute my design plans so I worked around my skillset and used resources online to style the website to my liking:
+    In addition to the required and optional steps, I wanted to create an outer space theme because I thought it matched the lights and alien-like sounds produced by the buttons. Despite it being my first time using CSS, I was determined to execute my design plans so I worked around my skillset and used resources online to style the website to my liking:
 
       - I used the free fonts provided by Google for my personal use.
 
@@ -94,7 +94,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    
    In terms of functions and features, I would add levels to the game where the number of turns would get longer after each level has been completed. For example, in Level 1, there would be 8 turns (what we have right now). In Level 2, there would be 10 turns. And so forth.
    
-   For those who are up for the challenge, I would include the option to increase the game intensity by changing the position of the colored buttons in each turn. For example, the green button (1st position) would be in the 3rd position (pink button) while the yellow button (4th position) would be in the 5th position (orange button). In the second turn, the green button is in the 2nd position, and so forth with the rest of the colored buttons following a similar pattern.
+   For those who are up for the challenge, I would include the option to increase the game intensity by having each of the colored buttons randomly change positions in each turn. For example, the green button (1st position) would be in the 3rd position (pink button) while the yellow button (4th position) would be in the 5th position (orange button). In the second turn, the green button is in the 2nd position, and so forth with the rest of the colored buttons following a similar pattern.
    
    Instead of the alert in the **_loseGame()_** and **_winGame()_** functions, I would replace them with the words "GAME OVER" and "YOU WON", respectively, and gradually increase its font size across the webpage.
 
