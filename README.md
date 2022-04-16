@@ -1,6 +1,6 @@
 # Pre-work - _Memory Game_
 
-NOTE: This has been updated. Link to updated version with new features: [https://github.com/0192pm/FTL-Application]
+NOTE: This has been updated. Link to updated version with new features: [https://github.com/0192pm/FTL-Application](https://github.com/0192pm/FTL-Application)
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
 
