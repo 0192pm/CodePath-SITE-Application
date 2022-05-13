@@ -1,14 +1,11 @@
 
-- [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+## The following features were implemented:
 - [x] "Start" button toggles between "Start" and "Stop" when clicked.
 - [x] Game buttons each light up and play a sound when clicked.
 - [x] Computer plays back sequence of clues including sound and visual cue for each button
 - [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
 - [x] User wins the game after guessing a complete pattern
 - [x] User loses the game after an incorrect guess
-
-The following features were implemented:
-
 - [x] Playback speeds up on each turn
 - [x] Computer picks a different pattern each time the game is played
 - [x] Player only loses after 3 mistakes (instead of on the first mistake)
