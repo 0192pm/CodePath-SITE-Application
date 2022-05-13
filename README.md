@@ -1,18 +1,3 @@
-# Pre-work - _Memory Game_
-
-NOTE: This has been updated. Link to updated version with new features: [https://github.com/0192pm/FTL-Application](https://github.com/0192pm/FTL-Application)
-
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
-
-Submitted by: Keisha Maru Benauro
-
-Time spent: **30** hours spent in total
-
-Link to project: [https://satisfying-grandiose-agreement.glitch.me](https://satisfying-grandiose-agreement.glitch.me/)
-
-## Required Functionality
-
-The following **required** functionality is complete:
 
 - [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
 - [x] "Start" button toggles between "Start" and "Stop" when clicked.
@@ -22,29 +7,17 @@ The following **required** functionality is complete:
 - [x] User wins the game after guessing a complete pattern
 - [x] User loses the game after an incorrect guess
 
-The following **optional** features are implemented:
+The following features were implemented:
 
-- [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-- [x] Buttons use a pitch (frequency) other than the ones in the tutorial
-- [x] More than 4 functional game buttons
 - [x] Playback speeds up on each turn
 - [x] Computer picks a different pattern each time the game is played
 - [x] Player only loses after 3 mistakes (instead of on the first mistake)
-- [x] Game button appearance change goes beyond color (e.g. add an image)
-- [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-- [ ] User has a limited amount of time to enter their guess on each turn
-
-The following **additional** features are implemented:
-
-- [x] Add moving alien icon
-- [x] Blur game buttons when clicked
+- [x] Game buttons are blurred when clicked
 - [x] Alert with a count of total mistakes made
 - [x] A round of applause is played after winning the game
 - [x] An alert saying to refresh page after winning the game
 
 ## Video Walkthrough (GIF)
-
-If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](http://g.recordit.co/OhEwyz3vK4.gif)
 ![](http://g.recordit.co/A9fAaXHwKv.gif)
 ![](http://g.recordit.co/bj1Dw0cUrf.gif)
@@ -52,10 +25,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 * NOTE: Sound of the buttons and round of applause cannot be heard from the gif. Also, when the same button is pressed twice, sometimes it is not captured by RecordIt in the Gif.
 
-## Reflection Questions
-
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-
+## Resources Used
 - Customize Outline Button Color: [https://www.w3schools.com/howto/howto_css_outline_buttons.asp](https://www.w3schools.com/howto/howto_css_outline_buttons.asp)
 - Add Custom Font: [https://stackoverflow.com/questions/12144000/using-custom-fonts-using-css](https://stackoverflow.com/questions/12144000/using-custom-fonts-using-css);
 - Font Website: [https://fonts.google.com/](https://fonts.google.com/)
@@ -66,7 +36,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - JavaScript Random Number Not Starting at Zero: [https://stackoverflow.com/questions/6702146/generating-random-integer-in-range-that-doesnt-start-at-zero](https://stackoverflow.com/questions/6702146/generating-random-integer-in-range-that-doesnt-start-at-zero)
 - Image on HTML Button: [https://www.delftstack.com/howto/html/html-button-with-image/](https://www.delftstack.com/howto/html/html-button-with-image/)
 - Play Audio in JavaScript: [https://www.delftstack.com/howto/javascript/play-audio-javascript/#:~:text=Use%20.-,play()%20to%20Play%20Audio%20Files%20in%20JavaScript,play()%20function.](https://www.delftstack.com/howto/javascript/play-audio-javascript/#:~:text=Use%20.-,play()%20to%20Play%20Audio%20Files%20in%20JavaScript,play()%20function.)
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+
+## Reflection
 
     This was my first time integrating several features into one project. Because of the relatively lengthy code compared to my previously smaller in-class projects, I encountered a few challenges along the way, specifically when it came to functions in the required steps of Task 1: the **_startGame()_** and **_stopGame()_** functions failed to run and the **_lightButton()_** function was not lighting up during the actual gameplay (which resulted in a Sound Memory Game instead). Initially, I looked through each step against my code to find any discrepancies between the two. Luckily, this fixed the issue with the **_lightButton()_** function as I had simply overlooked the _#button4.lit_ selector on CSS. I got the **_startGame()_** and **_stopGame()_** functions to work simply by rewriting the code.
 
@@ -80,18 +51,6 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
       - To fit the space theme, I created the button and alien icons on After Effects. I wanted to challenge myself by moving the icon using CSS instead of uploading a gif using After Effects which, to my surprise was fairly straightforward and only required tweaking values.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
-
-    - What other tools and software can be used in addition to HTML, JavaScript, and CSS to add more features into a web application?
-    - What tips can be used to integrate better UI/UX to a project?
-    - How often should one check that their web application is at peak performance?
-    - What are ways to gain and establish credibility when a website collects more sensitive data from its users?
-    - How often do front-end and back-end developers talk to each other?
-    - What are ways to make websites and web applications more accessible everybody especially to those who are blind or deaf?
-    - How do you take inspiration from other developers' code, especially in front-end development?
-
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   
    With a few more hours, I would dive deeper into the CSS and HTML aspect even more to incorporate more dynamic into my website with a moving background and more button animation.
    
    In terms of functions and features, I would add levels to the game where the number of turns would get longer after each level has been completed. For example, in Level 1, there would be 8 turns (what we have right now). In Level 2, there would be 10 turns. And so forth.
@@ -100,9 +59,6 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    
    Instead of the alert in the **_loseGame()_** and **_winGame()_** functions, I would replace them with the words "GAME OVER" and "YOU WON", respectively, and gradually increase its font size as it is displayed across the webpage.
 
-## Interview Recording URL Link
-
-[https://www.youtube.com/watch?v=ihvFfZ612S0](https://www.youtube.com/watch?v=ihvFfZ612S0)
 
 ## License
 
