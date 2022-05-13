@@ -1,4 +1,5 @@
-Link to website: satisfying-grandiose-agreement.glitch.me/                                                                                  
+Link to website: satisfying-grandiose-agreement.glitch.me/   
+
 ## The following features were implemented:
 - [x] "Start" button toggles between "Start" and "Stop" when clicked.
 - [x] Game buttons each light up and play a sound when clicked.
