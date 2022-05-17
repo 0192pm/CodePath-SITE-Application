@@ -1,4 +1,4 @@
-Link to website: [satisfying-grandiose-agreement.glitch.me/]   
+Link to website: [satisfying-grandiose-agreement.glitch.me/](satisfying-grandiose-agreement.glitch.me/)
 
 ## The following features were implemented:
 - [x] "Start" button toggles between "Start" and "Stop" when clicked.
